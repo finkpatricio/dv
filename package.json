@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d src"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "homepage": "https://patriciofink.github.io/dv",
   "dependencies": {
